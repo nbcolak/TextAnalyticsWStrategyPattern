@@ -1,0 +1,6 @@
+@TextAnalyticsWStrategyPattern_HostAddress = http://localhost:5104
+
+GET {{TextAnalyticsWStrategyPattern_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

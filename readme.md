@@ -1,12 +1,4 @@
 
-Bu proje, Strategy Pattern kullanarak iki farklı analiz sağlayıcısıyla duygusal analiz gerçekleştirmektedir: Azure Cognitive Services ve Google Cloud Natural Language API. Kullanıcı, analiz sağlayıcısını belirleyerek (Google veya Azure), metin üzerinde duygusal analiz yapabilir. Proje aynı zamanda Dependency Injection (DI) ile esnek bir yapı sunar ve yapılandırma ayarlarını appsettings.json üzerinden yönetir.
-
-Kullanım
-
-	1.	Proje yapılandırma ayarlarında, Google veya Azure API bilgilerinizi appsettings.json dosyasına ekleyin.
-	2.	HTTP isteklerinde provider (Google veya Azure) belirtin.
-	3.	Metin göndererek duygusal analiz sonuçlarını alın.
-
 Emotional Analysis with Strategy Pattern (Using Azure and Google AI)
 
 This project performs emotional analysis using the Strategy Pattern with two different analysis providers: Azure Cognitive Services and Google Cloud Natural Language API. The user can choose the analysis provider (Google or Azure) and perform emotional analysis on the text. The project also provides a flexible structure with Dependency Injection (DI) and manages configuration settings through the appsettings.json file.
@@ -16,6 +8,18 @@ Usage
 	1.	Add your Google or Azure API credentials to the appsettings.json file in the project configuration.
 	2.	Specify the provider (Google or Azure) in the HTTP requests.
 	3.	Submit the text to receive the emotional analysis results.
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bu proje, Strategy Pattern kullanarak iki farklı analiz sağlayıcısıyla duygusal analiz gerçekleştirmektedir: Azure Cognitive Services ve Google Cloud Natural Language API. Kullanıcı, analiz sağlayıcısını belirleyerek (Google veya Azure), metin üzerinde duygusal analiz yapabilir. Proje aynı zamanda Dependency Injection (DI) ile esnek bir yapı sunar ve yapılandırma ayarlarını appsettings.json üzerinden yönetir.
+
+Kullanım
+
+	1.	Proje yapılandırma ayarlarında, Google veya Azure API bilgilerinizi appsettings.json dosyasına ekleyin.
+	2.	HTTP isteklerinde provider (Google veya Azure) belirtin.
+	3.	Metin göndererek duygusal analiz sonuçlarını alın.
+
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Análisis Emocional con el Patrón de Estrategia (usando Azure y Google AI)
 
@@ -26,6 +30,7 @@ Uso
 	1.	Agregue sus credenciales de API de Google o Azure al archivo appsettings.json en la configuración del proyecto.
 	2.	Especifique el provider (Google o Azure) en las solicitudes HTTP.
 	3.	Envíe el texto para recibir los resultados del análisis emocional.
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Emotionale Analyse mit dem Strategie-Muster (unter Verwendung von Azure und Google AI)
 
